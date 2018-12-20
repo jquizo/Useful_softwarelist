@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    transition: all 0.3s linear;
+}
+body.sidebar-active {
+    padding-left: 200px;
+}
+body.sidebar-active #sidebar {
+    left: 0px;
+}
+.content {
+    padding: 10px;
+    margin-top: 60px;
+}
+
+main {
+    padding: 15px 0px 40px 65px;
+}
+
+/*Sidebar*/
+
+#sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background: grey;
+    left: -200px;
+    transition: all 0.3s linear;
+}
+#sidebar.active {
+    left: 0px;
+}
+
+#sidebar ul li {
+    color: #fff;
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid #fff;
+}
+
+/* Toggle button */
+#sidebar .toggle-btn {
+    position: absolute;
+    left: 220px;
+    top: 20px;
+}
+
+#sidebar .toggle-btn span {
+    display: block;
+    width: 32px;
+    height: 5px;
+    background: black;
+    margin: 3px 0px;
+    cursor: pointer;
+}
+
+/* Headers + Text */
+li {
+    list-style-type: circle;
+}
