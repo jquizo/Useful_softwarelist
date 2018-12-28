@@ -7,65 +7,349 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title> List of PC &amp; Gaming Software </title>
-
+    
     <link rel="stylesheet" href="styles.css">
+    <!--    FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!--    GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 </head>
 
 <body>
     <div id="sidebar">
         <div class="toggle-btn" onclick="toggleSidebar(this)">
-            <span></span>
-            <span></span>
-            <span></span>
+            <span class="span1"></span>
+            <span class="span2"></span>
+            <span class="span3"></span>
         </div>
+        
         <ul>
-            <li>Browsers</li>
-            <li>Tools</li>
-            <li>Security</li>
+            <li><a href="#browsers">Browsers</a></li>
+            <li><a href="#files">File viewers</a></li>
+            <li><a href="#audio">Audio</a></li>
+            <li><a href="#media-player">Media players</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#word">Word &amp; Email</a></li>
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#security">Security</a></li>
+            <li><a href="#photos">Photos &amp; Design</a></li>
+            <li><a href="#hardware">Hardware</a></li>
+            <li><a href="#managers">Managers</a></li>
+            <li><a href="#programming">Programming</a></li>
+            <li><a href="#recovery">Data Recovery</a></li>
         </ul>
     </div>
     <main>
-        <h1 class="mainHeader"> List of Useful Software </h1>
-        <p>All software listed below are free. I recommend starting with Ninite <a href="https://ninite.com/">(link)</a>.
-            This allows you to install and update your programs at all once</p>
-        <h3> Web Browsers</h3>
-        <ul class="list-group">
-            <li class="list-group-item"><strong>Chrome </strong><a href="https://www.google.com/chrome/">(link)</a> -
-            </li>
-            <li class="list-group-item"><strong>Firefox </strong><a href="https://www.mozilla.org/en-US/firefox/new/">(link)</a>
-                - </li>
-            <li class="list-group-item"><strong>Opera </strong><a href="https://www.opera.com/">(link)</a> - </li>
-            <li class="list-group-item"><strong>Vivaldi </strong><a href="https://vivaldi.com/">(link)</a> - </li>
-            <li class="list-group-item"><strong>TOR </strong><a href="https://www.torproject.org/">(link)</a> - </li>
-        </ul>
-
+        
+        <h1> List of Useful Software </h1>
         <hr>
-        <h3> Files and Explorers</h3>
-        <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action">7-Zip</a>
-            <a href="#" class="list-group-item list-group-item-action">WinRAR</a>
-            <a href="#" class="list-group-item list-group-item-action">Open Office</a>
-            <a href="#" class="list-group-item list-group-item-action">LibreOffice</a>
-            <a href="#" class="list-group-item list-group-item-action">Infranview</a>
-            <a href="#" class="list-group-item list-group-item-action">SumatraPDF</a>
-        </div>
-        <hr>
-        <h3> Security</h3>
-        <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action"> Avira </a>
-            <a href="#" class="list-group-item list-group-item-action">Kaspersky</a>
-            <a href="#" class="list-group-item list-group-item-action">AdwCleaner</a>
-            <a href="#" class="list-group-item list-group-item-action">Malwarebytes</a>
-            <a href="#" class="list-group-item list-group-item-action">uBlock Origin</a>
-        </div>
-
+        <p>All software listed below are either <strong>free</strong> or have free versions. I recommend starting with Ninite <button class="myButton"><a href="https://ninite.com/">link</a></button> This allows you to install and update your programs all at once.</p>
+        
+        <h2 id="browsers"> Web Browsers</h2>
+            <ul>
+                <li><strong>Chrome </strong><button class="myButton"><a href="https://www.google.com/chrome/">link</a></button> - Most popular web browser.
+                </li>
+                <li><strong>Firefox </strong><button class="myButton"><a href="https://www.mozilla.org/en-US/firefox/new/">link</a></button> - Another great and popular web browser.
+                </li>
+                <li><strong>Opera </strong><button class="myButton"><a href="https://www.opera.com/">link</a></button> - Browser with a built in ad-blocker &amp; VPN.
+                </li>
+                <li><strong>Vivaldi </strong><button class="myButton"><a href="https://vivaldi.com/">link</a></button> - A browser with many customization options.
+                </li>
+                <li><strong>Brave </strong><button class="myButton"><a href="https://brave.com/">link</a></button> - Browser that blocks ads and website trackers.
+                </li>
+                <li><strong>TOR </strong><button class="myButton"><a href="https://www.torproject.org/">link</a></button> - A browser for surfing the web securely and anonymously.
+                </li>
+            </ul>
+        
+            <h2 id="files"> <i class="fas fa-folder-open"></i> File Viewers</h2> 
+             <ul>
+                <li><strong>7-Zip </strong><button class="myButton"><a href="https://www.google.com/chrome/">link</a></button> - File compression and archiver.
+                </li>
+                <li><strong>ZIP archiver </strong><button class="myButton"><a href="http://ziparchiver.hamstersoft.com/">link</a></button> - File compression and archiver.
+                </li>
+                <li><strong>IZArc </strong><button class="myButton"><a href="https://www.izarc.org/">link</a></button> - File compression and archiver.
+                </li>
+                 <li><strong>PeaZip</strong><button class="myButton"><a href="www.peazip.org/">link</a></button> - File compression and encryption.
+                </li>
+                <li><strong>SumatraPDF </strong><button class="myButton"><a href="https://www.sumatrapdfreader.org/free-pdf-reader.html">link</a></button> - Simple PDF viewer.
+                </li> 
+                <li><strong>Foxit </strong><button class="myButton"><a href="https://www.foxitsoftware.com/pdf-reader/">link</a></button> - PDF viewer.
+                </li> 
+                <li><strong>Clover </strong><button class="myButton"><a href="http://en.ejie.me/">link</a></button> - Adds tabs to Windows Explorer. Compatible with Windows 10.
+                </li>
+                <li><strong>QTTabBar </strong><button class="myButton"><a href="http://qttabbar.wikidot.com/">link</a></button> - Adds tabs to Windows Explorer. Compatible with Windows 10.
+                </li>
+            </ul>
+        
+        <h2 id="audio"> <i class="far fa-file-audio"></i> Audio &amp; Communication</h2> 
+            <ul>
+                <li><strong>Audacity </strong> <button class="myButton"><a href="https://www.audacityteam.org/">link</a></button> - Audio recording &amp; editor.
+                </li>
+                <li><strong>LMMS</strong> <button class="myButton"><a href="https://lmms.io/">link</a></button> - Program for creating your own music tracks.
+                </li>
+                <li><strong>Discord</strong> <button class="myButton"><a href="https://discordapp.com/">link</a></button> - All in one voice &amp; text chat. Great for games.
+                </li>
+                <li><strong>WhatsApp</strong> <button class="myButton"><a href="https://www.whatsapp.com/">link</a></button> - Simple, secure messaging.
+                </li>
+                <li><strong>Viber </strong> <button class="myButton"><a href="https://www.viber.com/">link</a></button> - Free calls and messaging.
+                </li>
+                <li><strong>Pidgin </strong> <button class="myButton"><a href="https://pidgin.im/">link</a></button> - Chat client.
+                </li>
+                <li><strong>MediaInfo </strong> <button class="myButton"><a href="https://mediaarea.net/en/MediaInfo">link</a></button> - Shows technical data for video &amp; audio files.
+                </li>
+                <li><strong>MP3TAG</strong> <button class="myButton"><a href="https://www.mp3tag.de/en/">link</a></button> - Allows you to edit metadata of audio files.
+                </li>
+            </ul>
+        
+        <h2 id="media-player"> <i class="far fa-file-video"></i> Media players</h2>
+            <ul>    
+                <li><strong>VLC media player</strong> <button class="myButton"><a href="https://www.videolan.org/vlc/download-windows.html">link</a></button> - Multimedia player.
+                </li>
+                <li><strong>Pot Player</strong> <button class="myButton"><a href="https://potplayer.daum.net/">link</a></button> - Minimalistic media player.
+                <li><strong>Media Player Classic</strong> <button class="myButton"><a href="https://mpc-hc.org/">link</a></button> - Lightweight media player.
+                </li>
+                <li><strong>Kodi </strong> <button class="myButton"><a href="https://kodi.tv/">link</a></button> - Media player and manager.
+                </li>
+                <li><strong>GOM player </strong> <button class="myButton"><a href="https://www.gomlab.com/download/">link</a></button> - Media player.
+                </li>
+            </ul>
+    
+        <h2 id="video"> <i class="fas fa-video"></i> Video &amp; video editing</h2>
+            <ul>
+                
+                <li><strong>OBS Studio</strong> <button class="myButton"><a href="https://obsproject.com/">link</a></button> - Video recording and live streaming.
+                </li>
+                <li><strong>VSDC Video Editor </strong> <button class="myButton"><a href="http://www.videosoftdev.com/">link</a></button> - Simple free video editor.
+                </li>
+                <li><strong>Windows Movie Maker</strong> <button class="myButton"><a href="https://www.topwin-movie-maker.com/">link</a></button> - Free video editor.
+                </li>
+                <li><strong>Hitfilm Express</strong> <button class="myButton"><a href="https://fxhome.com/express">link</a></button> - Free professional grade video editor.
+                </li>
+                <li><strong>Lightworks </strong> <button class="myButton"><a href="https://www.lwks.com/index.php?option=com_content&view=article&id=98&Itemid=209">link</a></button> - Professional grade video editor, free &amp; paid versions.
+                </li>
+                <li><strong>Davinci Resolve 15 </strong> <button class="myButton"><a href="https://www.blackmagicdesign.com/products/davinciresolve/">link</a></button> - Video, color correction, audio and visual effects editor. Free &amp; paid versions.
+                </li>
+                <li><strong>Aegisub</strong> <button class="myButton"><a href="http://www.aegisub.org/downloads/">link</a></button> - Subtitle editor.
+                </li>
+                <li><strong>Microsoft Expression Encoder 4</strong> <button class="myButton"><a href="https://www.google.com/search?q=microsoft+expression+encoder&oq=microsoft+expression+enc&aqs=chrome.0.0j69i57j0l4.3703j0j1&sourceid=chrome&ie=UTF-8">link</a></button> - Screen capture program.
+                </li>
+                <li><strong>Faststone Capture</strong> <button class="myButton"><a href="http://www.faststone.org/FSCaptureDetail.htm">link</a></button> - Screen capture program.
+                </li>
+                <li><strong>HandBrake </strong> <button class="myButton"><a href="https://handbrake.fr/">link</a></button> - Software for converting video formats.
+                </li>
+            </ul>
+        
+        <h2 id="word"> <i class="far fa-file-word"></i> Word Processing &amp; Email</h2>
+            <ul>
+                <li><strong>LibreOffice </strong><button class="myButton"><a href="https://www.libreoffice.org/">link</a></button> - Open source, free alternative to Microsoft Office suite.
+                </li>
+                <li><strong>WPS Office </strong><button class="myButton"><a href="https://www.wps.com/office-free">link</a></button> - Free office suite program.
+                </li>
+                <li><strong>AbiWord </strong><button class="myButton"><a href="https://www.abisource.com/">link</a></button> - Microsoft word alternative. Word processing program.
+                </li>
+                <li><strong>Bullzip </strong><button class="myButton"><a href="http://www.bullzip.com/products/pdf/info.php">link</a></button> - PDF printer.
+                </li>
+                <li><strong>PDFCreator </strong><button class="myButton"><a href="https://www.pdfforge.org/pdfcreator">link</a></button> - Converts documents to PDF.
+                </li>
+                <li><strong>Thunderbird </strong><button class="myButton"><a href="https://www.thunderbird.net/en-US/">link</a></button> - Email application.
+                </li>
+                <li><strong>Mailbird </strong><button class="myButton"><a href="https://www.getmailbird.com/">link</a></button> - Email client. Free and paid versions.
+                </li>
+                <li><strong>pCloud </strong><button class="myButton"><a href="https://transfer.pcloud.com/">link</a></button> - For transferring large files through email. Upto 5GB.
+                </li>
+                <li><strong>Dropsend </strong><button class="myButton"><a href="https://www.dropsend.com/">link</a></button> - For transferring large files through email. 
+                </li>
+            </ul>
+            
+        <h2 id="tools"> <i class="fas fa-tools"></i> Tools</h2> 
+            <ul>   
+                <li><strong>f.lux </strong><button class="myButton"><a chref="https://www.irfanview.com/">link</a></button> - Reduces blue glow in computer screens. Makes the color of your screen adapt to the time of day.
+                </li>
+                <li><strong>TeraCopy </strong><button class="myButton"><a href="https://www.codesector.com/teracopy">link</a></button> - File transfer utility. Copies files  faster than Windows.
+                </li>
+                <li><strong>VoidTools Everything </strong><button class="myButton"><a href="https://www.voidtools.com/">link</a></button> - Windows search replacement. Finds everything.
+                </li>
+                <li><strong>Greenshot </strong><button class="myButton"><a href="http://getgreenshot.org/">link</a></button> - Print screen tool.
+                </li>
+                <li><strong>qBittorrent </strong><button class="myButton"><a href="https://www.qbittorrent.org/">link</a></button> - Torrent client.
+                </li>
+                <li><strong>uTorrent </strong><button class="myButton"><a href="https://www.utorrent.com/utweb-index">link</a></button> - Torrent client.
+                </li>
+                <li><strong>FreeNAS </strong><button class="myButton"><a href="https://freenas.org/">link</a></button> - Storage Operating System. Creates a centralized place to access your data.
+                </li>
+                <li><strong>Folder Size </strong><button class="myButton"><a href="http://foldersize.sourceforge.net/">link</a></button> - Shows folder size.
+                </li>
+                <li><strong>CCleaner </strong><button class="myButton"><a href="https://www.ccleaner.com/ccleaner/download">link</a></button> - File and registry cleaner.
+                </li>
+                <li><strong>BleachBit </strong><button class="myButton"><a href="https://www.bleachbit.org/">link</a></button> - Alternative to CCleaner. Frees up disk space.
+                </li>
+                <li><strong>dBan </strong><button class="myButton"><a href="https://dban.org/">link</a></button> - Hard Drive eraser and data clearing program.
+                </li>
+                <li><strong>WinDirStat </strong><button class="myButton"><a href="https://windirstat.net/">link</a></button> - Disk usage viewer.
+                </li>
+                <li><strong>Rainmeter </strong><button class="myButton"><a href="https://www.rainmeter.net/">link</a></button> - Desktop customization program.
+                </li>
+                <li><strong>AutoHotkey </strong><button class="myButton"><a href="https://www.autohotkey.com/">link</a></button> - Program for automating tasks in Windows.
+                </li>
+            </ul>
+  
+        <h2 id="security"><i class="fas fa-lock"></i> Security </h2>
+             <ul>
+                <li><strong>Avira </strong><button class="myButton"><a href="https://www.avira.com/">link</a></button> - Lightweight Antivirus. Free and paid options.
+                </li>
+                <li><strong>Kaspersky </strong><button class="myButton"><a href="https://www.kaspersky.com.au/">link</a></button> - Antivirus. Free and paid options.
+                </li>
+                <li><strong>AdwCleaner </strong><button class="myButton"><a href="https://www.malwarebytes.com/adwcleaner/">link</a></button> - Adware cleaner &amp; Removal Tool.
+                </li>
+                <li><strong>MalwareBytes </strong><button class="myButton"><a href="https://www.malwarebytes.com/">link</a></button> - Antimalware software, finds and removes malware. Free and paid options.
+                </li>
+                <li><strong>pfSense </strong><button class="myButton"><a href="https://www.avira.com/">link</a></button> - Open source and free firewall.
+                </li>
+                <li><strong>Authy </strong><button class="myButton"><a href="https://authy.com/">link</a></button> - 2 Factor authenticator.
+                </li>
+                <li><strong>uBlock Origin </strong><button class="myButton"><a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en">link</a></button> - Lightweight adblocker for Chrome.
+                </li>
+                <li><strong>AdBlock </strong><button class="myButton"><a href="https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom">link</a></button> - Ad blocker alternative, although uses more system resources than uBlock Origin.
+                </li>
+                <li><strong>Privacy badger </strong><button class="myButton"><a href="https://www.eff.org/privacybadger">link</a></button> - Browser extension for Chrome, Firefox, Opera. Automatically blocks invisible trackers.
+                </li>
+                <li><strong>Panda USB vaccine </strong><button class="myButton"><a href="https://www.bleepingcomputer.com/download/panda-usb-vaccine/">link</a></button> - Security utility that blocks malware from spreading through USB drives.
+                </li> 
+                <li><strong>VeraCrypt </strong><button class="myButton"><a href="https://www.veracrypt.fr/en/Home.html">link</a></button> - Encryption software.
+                </li>
+                <li><strong>AxCrypt </strong><button class="myButton"><a href="https://www.axcrypt.net/">link</a></button> - Encryption software. Free and paid versions.
+                </li>
+                <li><strong>HTTPS Everywhere </strong><button class="myButton"><a href="https://www.eff.org/https-everywhere">link</a></button> - Encrypts your communication with websites. Forces https when it can.
+                </li>
+                <li><strong>Windscribe </strong><button class="myButton"><a href="https://windscribe.com/">link</a></button> - Free VPN, Pro version available.
+                </li>
+            </ul> 
+        
+            <h2 id="photos"><i class="fas fa-camera"></i> Photos &amp; Design</h2>
+            <ul>
+                <li><strong>Infranview </strong><button class="myButton"><a href="https://www.irfanview.com/">link</a></button> - Image viewer &amp; basic image editor.
+                </li>
+                <li><strong>Photoscape </strong><button class="myButton"><a href="http://www.photoscape.org/ps/main/index.php">link</a></button> - Photo editing software.
+                </li>
+                <li><strong>Paint.net </strong><button class="myButton"><a href="https://www.getpaint.net/">link</a></button> - Image and photo editing software.
+                </li>
+                <li><strong>GIMP </strong><button class="myButton"><a href="https://www.gimp.org/">link</a></button> - Free image editor similar to Photoshop.
+                </li>
+                <li><strong>Gravit </strong><button class="myButton"><a href="https://www.designer.io/">link</a></button> - Free image editor. Alternative to photoshop.
+                </li>
+                <li><strong>Pencil2D Animation </strong><button class="myButton"><a href="https://www.pencil2d.org/">link</a></button> - Free 2D animation program.
+                </li>
+                <li><strong>Blender </strong><button class="myButton"><a href="https://www.blender.org/">link</a></button> - Free 3D creation and editing program.
+                </li>
+                <li><strong>Krita </strong><button class="myButton"><a href="https://krita.org/en/">link</a></button> - Digital painting and animation editor.
+                </li>
+                <li><strong>Inkscape </strong><button class="myButton"><a href="https://inkscape.org/">link</a></button> - Free Vector graphics editor.
+                </li>
+                <li><strong>Darktable </strong><button class="myButton"><a href="https://www.darktable.org/">link</a></button> - Photography workflow application.
+                </li>
+            </ul>    
+        
+         <h2 id="hardware"><i class="fas fa-desktop"></i> Hardware Information &amp; Monitoring </h2>
+            <ul>
+                <li><strong>Speccy </strong><button class="myButton"><a href="https://www.ccleaner.com/speccy">link</a></button> - Shows your computer specs.
+                </li>
+                <li><strong>HWMonitor </strong><button class="myButton"><a href="https://www.cpuid.com/softwares/hwmonitor.html">link</a></button> - Hardware monitoring program that tracks temperatures, fans, voltages and speed.
+                </li>
+                <li><strong>Open Hardware Monitor </strong><button class="myButton"><a href="https://openhardwaremonitor.org/">link</a></button> - Hardware monitoring program that tracks temperatures, fans, voltages and speed.
+                </li>
+                <li><strong>HWiNFO </strong><button class="myButton"><a href="https://www.hwinfo.com/">link</a></button> - In-depth hardware monitor and reporter.
+                </li>
+                <li><strong>CPU-Z </strong><button class="myButton"><a href="https://www.cpuid.com/softwares/cpu-z.html/">link</a></button> - Provides CPU, Motherboard and RAM information.
+                </li>
+                <li><strong>GPU-Z </strong><button class="myButton"><a href="https://www.techpowerup.com/gpuz/">link</a></button> - Provides GPU information.
+                </li>
+                <li><strong>HDDscan </strong><button class="myButton"><a href="http://hddscan.com/">link</a></button> - Hard drive information and diagnostics. Useful for checking the health of your hard drives.
+                </li>
+                <li><strong>CrystalDiskInfo </strong><button class="myButton"><a href="https://crystalmark.info/en/software/crystaldiskinfo/">link</a></button> - HDD/SSD utility software.
+                </li>
+                <li><strong>MSI Afterburner </strong><button class="myButton"><a href="https://www.msi.com/page/afterburner">link</a></button> - Provides detailed overview of your hardware and has an overclocking utility.
+                </li>
+                <li><strong>AIDA64 </strong><button class="myButton"><a href="https://www.cpuid.com/softwares/hwmonitor.html">link</a></button> - For CPU &amp; RAM stability and benchmarking.
+                <li><strong>LinX </strong><button class="myButton"><a href="https://linx.en.lo4d.com/">link</a></button> - CPU benchmarking app.
+                </li>
+                <li><strong>WinMTR </strong><button class="myButton"><a href="http://winmtr.net/">link</a></button> - Network Diagnostic tool.
+                </li>
+            </ul>
+            
+            <h2 id="managers"><i class="fas fa-tasks"></i> Managers  </h2>
+            <ul>
+                <li><strong>KeePass </strong><button class="myButton"><a href="https://www.irfanview.com/">link</a></button> - Password manager.
+                </li>
+                <li><strong>RoboForm </strong><button class="myButton"><a href="https://www.roboform.com/key-features">link</a></button> - Password manager. Free and paid versions.
+                </li>
+                <li><strong>Password Safe </strong><button class="myButton"><a href="https://pwsafe.org/">link</a></button> - Username and password manager.
+                </li>
+                <li><strong>MusicBee </strong> <button class="myButton"><a href="https://getmusicbee.com/">link</a></button> - Music manager and player.
+                </li>
+                <li><strong>Taiga </strong> <button class="myButton"><a href="https://taiga.io/">link</a></button> - Project management program.
+                </li>
+                <li><strong>Zotero </strong><button class="myButton"><a href="https://www.zotero.org/">link</a></button> - Reference manager.
+                </li>
+                <li><strong>Calibre </strong><button class="myButton"><a href="https://calibre-ebook.com/download">link</a></button> - eBook manager.
+                </li>
+                <li><strong>TreeSheets </strong><button class="myButton"><a href="http://strlen.com/treesheets/">link</a></button> - Note manager, structured like a tree.
+                </li>
+                <li><strong>Seo Note</strong> <button class="myButton"><a href="http://www.seonote.info/">link</a></button> - Personal and business information manager.
+                </li>
+                <li><strong>Ditto </strong> <button class="myButton"><a href="https://ditto-cp.sourceforge.io/">link</a></button> - Windows Clipboard manager.
+                </li>
+                
+            </ul>
+            
+            <h2 id="programming"><i class="fas fa-code"></i> Programming</h2>
+            <ul>
+                <li><strong>Notepad ++ </strong><button class="myButton"><a href="https://notepad-plus-plus.org/">link</a></button> - Code editor and notepad alternative.
+                </li>
+                <li><strong>Atom </strong><button class="myButton"><a href="http://brackets.io/">link</a></button> - Code editor.
+                </li>
+                 <li><strong>Brackets </strong><button class="myButton"><a href="https://atom.io/">link</a></button> - Code editor.
+                </li>
+                <li><strong>Visual Studio Code </strong><button class="myButton"><a href="https://code.visualstudio.com/">link</a></button> - Code editor.
+                </li>
+                <li><strong>Sublime Text </strong><button class="myButton"><a href="https://www.sublimetext.com/">link</a></button> - Code editor.
+                </li>
+                <li><strong>Eclipse </strong><button class="myButton"><a href="https://www.eclipse.org/downloads/">link</a></button> - Integrated development Environment.
+                </li>
+                <li><strong>Scout App </strong><button class="myButton"><a href="http://scout-app.io/">link</a></button> - Sass and CoffeeScript compiler.
+                </li>
+                <li><strong>Koala </strong><button class="myButton"><a href="http://koala-app.com/">link</a></button> - Less, Sass, Compass and CoffeeScript compiler.
+                </li>
+                <li><strong>NVU </strong><button class="myButton"><a href="http://www.nvu.com/">link</a></button> - Web editor.
+                </li>
+            </ul>
+        
+            <h2 id="recovery"><i class="fas fa-recycle"></i> Data recovery</h2>
+            <ul>
+                <li><strong>Recuva </strong><button class="myButton"><a href="https://www.ccleaner.com/recuva">link</a></button> - Data recovery software.
+                </li>
+                <li><strong>TestDisk </strong><button class="myButton"><a href="https://www.cgsecurity.org/wiki/TestDisk">link</a></button> - Data recovery software.
+                </li>
+                <li><strong>Pandora Recovery </strong><button class="myButton"><a href="https://www.cgsecurity.org/wiki/TestDisk">link</a></button> - Data recovery software. Windows and Mac versions.
+                </li>
+                <li><strong>Undelete 360 </strong><button class="myButton"><a href="https://www.cgsecurity.org/wiki/TestDisk">link</a></button> - Data recovery software. 
+                </li>
+                <li><strong>PhotoRec </strong><button class="myButton"><a href="https://www.cgsecurity.org/wiki/PhotoRec">link</a></button> - Photo recovery software.
+                </li>
+                <li><strong>Zero Assumption Recovery </strong><button class="myButton"><a href="https://www.z-a-recovery.com/download.aspx">link</a></button> - Free version for recovering photos. Other files require payment.
+                </li>
+                <li><strong>EaseUS </strong><button class="myButton"><a href="https://www.easeus.com/backup-software/tb-free.html">link</a></button> - Backup &amp; cloning program.
+                </li>
+                <li><strong>Paragon Backup </strong><button class="myButton"><a href="https://www.paragon-software.com/free/br-free/">link</a></button> - Backup and recovery program.
+                </li>
+            </ul>
     </main>
 
 
 
 
     <script src="main.js"></script>
+    
 </body>
 
 </html>
