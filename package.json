@@ -2,7 +2,7 @@
   "name": "website_list",
   "version": "1.0.0",
   "description": "List containing useful software",
-  "main": "index.html",
+  "main": "index.js",
   "homepage": "https://jquizo/.github.io/Useful_softwarelist",
   "scripts": {
     "deploy": "gh-pages -d src"
